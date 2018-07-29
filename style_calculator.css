@@ -1,0 +1,32 @@
+body{
+    background: black;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    margin: 2px 1px 2px 1px;
+    border-radius: 50%;
+}
+
+button.wide{
+    width: 126px;
+    border-radius: 30px;
+}
+
+button.number{
+    background: dimgrey;
+}
+
+button.orange{
+    background: darkorange;
+}
+
+button.grey{
+    background: lightgrey;
+}
+
+.text_white{
+    color: white;
+}

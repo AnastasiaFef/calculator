@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style_calculator.css">
+</head>
+<body>
+    <output class="output text_white" id="output">0</output>
+    <br>
+    <button class="grey" id="clear" onclick="operation(this)">AC</button>
+    <button class="grey" id="positive-negative" onclick="operation(this)">+/-</button>
+    <button class="grey" id="percent" onclick="operation(this)">%</button>
+    <button class="orange text_white" id="division" onclick="operation(this)">/</button>
+    <br>
+    <button class="number text_white" onclick="number(this)">7</button>
+    <button class="number text_white" onclick="number(this)">8</button>
+    <button class="number text_white" onclick="number(this)">9</button>
+    <button class="orange text_white" id="multiplication" onclick="operation(this)">x</button>
+    <br>
+    <button class="number text_white" onclick="number(this)">4</button>
+    <button class="number text_white" onclick="number(this)">5</button>
+    <button class="number text_white" onclick="number(this)">6</button>
+    <button class="orange text_white" id="substraction" onclick="operation(this)">-</button>
+    <br>
+    <button class="number text_white" onclick="number(this)">1</button>
+    <button class="number text_white" onclick="number(this)">2</button>
+    <button class="number text_white" onclick="number(this)">3</button>
+    <button class="orange text_white" id="addition" onclick="operation(this)">+</button>
+    <br>
+    <button class="number wide text_white" onclick="number(this)">0</button>
+    <button class="number text_white" id="dec-point" onclick="operation(this)">.</button>
+    <button class="orange text_white" id="equals" onclick="operation(this)">=</button>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
